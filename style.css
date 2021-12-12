@@ -1,12 +1,21 @@
+@keyframes funbackground {
+    from{background-color: aliceblue;}
+    to{background-color: blue}
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     position: relative;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* animation-name: funbackground;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+
 }
 header{
     background: royalblue;
@@ -31,8 +40,24 @@ a{
     color: white;
     text-decoration: none;
 }
-h1{
+h1, h2{
     margin: 20px;
+}
+figure{
+    padding: 20px;
+}
+img{
+    border-radius: 50%;
+}
+form{
+    border: 5px solid aqua;
+    border-radius: 20px;
+    padding: 10px;
+}
+footer{
+    background-color: aqua;
+    width: 100%;
+    padding: 10px;
 }
 .center-text{
     text-align: center;
@@ -41,3 +66,6 @@ h1{
     text-align: right;
 }
 
+#about-me{
+    padding: 10px;
+}
